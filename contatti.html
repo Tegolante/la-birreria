@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="it-IT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Birreria - Contatti</title>
+    <meta content="author" name="Andrea Delle Case">
+    <link rel="stylesheet" href="/fontawesome/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.ico">
+</head>
+<body>
+
+    <header class="header">
+
+        <div class="content">
+
+            <div class="header__logo">
+
+                <a href="index.html">
+                    <figure><img src="/img/logo.png" alt="la-birreria-logo" width="150" height="100"></figure>
+                </a>
+
+            </div>
+
+            <div class="header__menu">
+                <nav>
+                    <ul>
+                        <li class="submenu"><a class="submenu__link" href="#">La Birreria</a>
+                            <ul class="submenu__menu">
+                                <li><a href="#">Storia</a></li>
+                                <li><a href="#">Il locale</a></li>
+                                <li><a href="#">Il museo</a></li>
+                                <li><a href="il-ristorante.html">Il ristorante</a></li>
+                                <li><a href="#">Il parco</a></li>
+                            </ul>
+                        </li>
+                        <li class="submenu"><a class="submenu__link" href="#">Le Birre</a>
+                            <ul class="submenu__menu">
+                                <li><a href="#">Dolomiti</a></li>
+                                <li><a href="#">Pedavena</a></li>
+                                <li><a href="#">Superior</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">News ed Eventi</a></li>
+                        <li><a href="contatti.html">Contatti</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="header__hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+        </div>
+
+    </header>
+
+    <div class="section hero bg__image-newsletter">
+        <div class="content hero__text">
+            <h1 class="section__title">Contatti</h1>
+            <div class="breadcrumb mb__4"><a href="index.html">Home</a> -- <a href="contatti.html">Contatti</a></div>
+        </div>
+    </div>
+
+    <section id="intro" class="pd__large">
+        <div class="content flex">
+
+            <div class="col-6 pd__small">
+                <h2 class="uppercase">Contatti</h2>
+                <ul class="contacts">
+                    <li><a href="https://maps.app.goo.gl/38hJrHXn849mhpSt9"><i class="fa-solid fa-magnifying-glass-location"></i>Viale Vittorio Veneto, 76 Pedavena (BL)</a></li>
+                    <li><a href="tel:+390123436789"><i class="fa-solid fa-phone-volume"></i>+39 01234 36789</a></li>
+                    <li><a href="mailto:prenotazioni@labirreria.com"><i class="fa-solid fa-envelope"></i>prenotazioni@labirreria.com</a></li>
+                </ul>
+            </div>
+
+            <div class="col-6 pd__small">
+                <h2 class="uppercase">Eventi e collaborazioni</h2>
+                <ul class="contacts">
+                    <li><a href="mailto:labirreria@mail.com"><i class="fa-solid fa-envelope"></i>labirreria@mail.com</a></li>
+                    <li><a href="https://www.facebook.com/?locale=it_IT"><i class="fa-brands fa-square-facebook"></i>Facebook</a></li>
+                    <li><a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i>Instagram</a></li>
+                </ul>
+            </div>
+          
+        </div>
+    </section>
+
+
+    <section id="form-contatti" class="bg__antique-white pd__large">
+
+        <div class="content">
+
+            <div class="center mb__4">
+
+                <h2 class="uppercase">Richiedi informazioni</h2>
+
+                <p>Compila il modulo richiedendo le informazioni che desideri, sarai ricontattato appena possibile dal nostro staff!</p>
+            </div>
+
+            <form action="#" method="post">
+
+                <div class="form__input mb__2">
+                    <label for="nome">Nome<span>*</span></label>
+                    <input type="text" id="nome" name="nome">
+                </div>
+
+                <div class="form__input mb__2">
+                    <label for="cognome">Cognome<span>*</span></label>
+                    <input  type="text" id="cognome" name="cognome" placeholder="Il tuo cognome" required>
+                </div>
+
+                <div class="form__input mb__2">
+                    <label for="email">Email<span>*</span></label>
+                    <input type="email" id="email" name="email" placeholder="La tua email" required>
+                </div>
+
+                <div class="form__input mb__2">
+                    <label for="messaggio">Messaggio (Facoltativo)</label>
+                    <textarea placeholder="Il tuo messaggio" id="messaggio" name="messaggio"></textarea>
+                </div>
+
+                <div class="form__input-checkbox mb__2">
+                    <input type="checkbox" name="accetta_privacy" id="accetta_privacy">
+                    <label>Accetto i <a href="#" target="_blank">termini e le condizioni sulla privacy</a></label>
+                </div>
+
+                <div class="form__input">
+                    <input type="hidden" name="data_messaggio" id="data_messaggio">
+                </div>
+
+                <div class="form__input">
+                    <input type="hidden" name="honeypot" id="honeypot">
+                </div>
+
+                <button class="btn btn__padding btn__blue" type="submit">Invia messaggio</button>
+
+            </form>
+        </div>
+       
+    </section>
+
+    <footer class="footer">
+        <div class="content">
+            <div class="flex">
+                <div class="col-4 pd__small">
+                    <div class="details mb__3">
+                        <figure>
+                            <img class=" mb__3" src="/img/logo.png" alt="la-birreria-logo" width="150" height="100">
+                        </figure>
+                        <p class="uppercase">Lunedì chiuso</p>
+                        <p class="uppercase">Martedì e domenica</p>
+                        <p>dalle ore 10.00 alle ore 24.00</p>
+                    </div>
+
+                    <div class="details mb__3">
+                        <a href="mailto:labirreria@mail.com"><i class="fa-solid fa-envelope"></i>labirreria@mail.com</a>
+                        <a href="tel:+061234567"><i class="fa-solid fa-phone"></i>06/1234567</a>
+                    </div>
+
+                    <div class="details mb__3">
+                        <p><a href="https://maps.app.goo.gl/38hJrHXn849mhpSt9">Viale Vittorio Veneto 76 &ndash; 32034 Pedavena (BL)&nbsp;</a></p>
+                        <p>P.iva: IT0073538789</p>
+                        <p>REA: BL-68679</p>
+                        <p>Capitale sociale: 10.400&euro;</p>
+                    </div>
+
+                    <div class="details social">
+                        <a href="https://www.facebook.com/?locale=it_IT"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+
+                </div>
+                <div class="col-4 pd__small">
+
+                    <div class="menu__container mb__3">
+
+                        <div class="menu__voice">
+                            <h3 class="title__col">La Fabbrica</h3>
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+
+                        <div class="menu__nav">
+                            <nav class="menu">
+                                <ul>
+                                    <li><a href="#">Storia</a></li>
+                                    <li><a href="#">Il locale</a></li>
+                                    <li><a href="#">Il museo</a></li>
+                                    <li><a href="il-ristorante.html">Il ristorante</a></li>
+                                    <li><a href="#">Il parco</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+
+                    </div>
+
+
+                    <div class="menu__container mb__3">
+
+                        <div class="menu__voice">
+                            <h3 class="title__col">Le Birre</h3>
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+
+                        <div class="menu__nav">
+                            <nav class="menu">
+                                <ul>
+                                    <li><a href="#">Dolomiti</a></li>
+                                    <li><a href="#">Pedavena</a></li>
+                                    <li><a href="#">Superior</a></li>
+                                </ul>        
+                            </nav>
+                        </div>
+
+                    </div>
+
+
+                    <div class="menu__container mb__3">
+
+                        <div class="menu__voice">
+                            <h3 class="title__col">Altro</h3>
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+
+                        <div class="menu__nav">
+                            <nav class="menu">
+                                <ul>
+                                    <li><a href="#">News ed eventi</a></li>
+                                    <li><a href="contatti.html">Contatti</a></li>
+                                </ul>        
+                            </nav>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-4 pd__small">
+
+                    <div class="mb__3">
+                        <h3 class="title__col">Link Utili</h3>
+                    </div>
+
+                    <div class="links">
+                        <nav class="menu">
+                            <ul>
+                                <li><a href="#">Cookie Policy</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Modifica Preferenze</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <div class="btn__scroll">
+        <i class="fa-solid fa-chevron-up"></i>
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/script.js"></script>
+    
+</body>
+</html>
